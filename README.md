@@ -19,30 +19,30 @@
 <br />
 <div align="center">
   <p align="center">
-    Rock, Paper, Scissors created using basics of Python!
+    TicTacToe created using basics of Python!
     <br />
-    <a href="https://github.com/imharris24/RockPaperScissors-PY"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/imharris24/TicTacToe-PY"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/imharris24/RockPaperScissors-PY/tree/main/src">View Demo</a>
+    <a href="https://github.com/imharris24/TicTacToe-PY/tree/main/src">View Demo</a>
     ·
-    <a href="https://github.com/imharris24/RockPaperScissors-PY/issues">Report Bug</a>
+    <a href="https://github.com/imharris24/TicTacToe-PY/issues">Report Bug</a>
     ·
-    <a href="https://github.com/imharris24/RockPaperScissors-PY/issues">Request Feature</a>
+    <a href="https://github.com/imharris24/TicTacToe-PY/issues">Request Feature</a>
   </p>
 </div>
 
 
 ## About The Project
 
-Rock paper scissors is a hand game originating from China, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors".
+TicTacToe is a game in which two players take turns placing circles and crosses on a 3x3 grid and attempt to obtain three of the same symbols in a straight line.
 
-In this implementation of the game, player is given three options; rock, paper and scissors. Once player chooses an option, Computer makes its choice as well. Depending on the choice of both; player and computer, a winner is selected.
+In this implementation of the game, two players play against each other and the first player to successfully create a straight line of symbol wins.
 
 <br>
 
 <div align="center">
-  <img width=auto height=auto src="https://github.com/imharris24/RockPaperScissors-PY/blob/main/screenshot/screenshot1.png">
+  <img width=auto height=auto src="https://github.com/imharris24/TicTacToe-PY/blob/main/screenshot/screenshot1.png">
 </div>
 
 <br>
@@ -86,7 +86,7 @@ $ ./main.py
 - [x] Add Player vs Player
 - [ ] Add Player vs AI
 
-See the [open issues](https://github.com/imharris24/RockPaperScissors-PY/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/imharris24/TicTacToe-PY/issues) for a full list of proposed features (and known issues).
 
 
 ## Contributing
@@ -112,4 +112,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 MUHAMMAD HARRIS - [@im_harrisg](https://instagram.com/im_harrisg) - harris20014@gmail.com
 
-Project Link: [Rock, Paper, Scissors](https://github.com/imharris24/RockPaperScissors-PY)
+Project Link: [TicTacToe](https://github.com/imharris24/TicTacToe-PY)

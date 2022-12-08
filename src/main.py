@@ -35,6 +35,7 @@ def inputPlayerO(grid):
 
 # function that returns result after each iteration of input
 def returnResult(grid):
+    remainingIndexes = set(grid)
     if grid[0] == grid[1] == grid[2] == 'X':
         return 'X'
     elif grid[3] == grid[4] == grid[5] == 'X':
@@ -67,6 +68,10 @@ def returnResult(grid):
         return 'O'
     elif grid[2] == grid[4] == grid[6] == 'O':
         return 'O'
+    elif len(remainingIndexes) == 2:
+        return 'D'
+    else:
+        return '-'
 
 # main
 
@@ -89,3 +94,20 @@ while True:
             grid = inputPlayerO(mainGrid)
 
         result = returnResult(mainGrid)
+        if result == '-':
+            continue
+        elif result == 'X':
+            os.system('cls')
+            print('\n\tPLAYER X WINS!\n')
+            input('press enter key to play again...')
+            break
+        elif result == 'O':
+            os.system('cls')
+            print('\n\tPLAYER O WINS!\n')
+            input('press enter key to play again...')
+            break
+        elif result == 'D':
+            os.system('cls')
+            print('\n\tIT\'s a DRAW!\n')
+            input('press enter key to play again...')
+            break

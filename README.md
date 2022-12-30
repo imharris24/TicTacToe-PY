@@ -103,11 +103,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 ## Contact
 
 MUHAMMAD HARRIS - [@im_harrisg](https://instagram.com/im_harrisg) - harris20014@gmail.com
